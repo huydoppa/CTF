@@ -1,0 +1,2 @@
+ln -s /index.php symindex.txt &
+zip --symlinks test1.zip symindex.txt
